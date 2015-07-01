@@ -1,4 +1,4 @@
-<img src="png/spotify_pride.png" style="max-width: 100px; float: right;">
+<img src="png/spotify_pride128.png">
 
 # spotify_pride
 
