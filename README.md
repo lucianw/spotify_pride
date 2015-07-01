@@ -35,4 +35,3 @@ Thanks to <a href="https://twitter.com/pascalweiland">@pascalweiland</a> for the
 ```
 curl -o icon.icns https://raw.githubusercontent.com/lucianw/spotify_pride/master/icns/spotify_pride.icns && sudo cp ./icon.icns /Applications/Spotify.app/Contents/Resources/icon.icns
 ```
-https://raw.githubusercontent.com/lucianw/spotify_pride/master/png/spotify_pride.png
