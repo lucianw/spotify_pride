@@ -9,7 +9,7 @@ Set your Spotify icon to this version by following these simple steps:
 
 Sadly there is no way to just switch Icons of an executable in windows.  
 So here is a batch script that will create a shortcut to spotify on your desktop with the new icon.
-```
+```cmd
 @echo off
 bitsadmin.exe /transfer "DownloadSpotifyPrideIcon" https://raw.githubusercontent.com/lucianw/spotify_pride/master/ico/spotify_pride64.ico %APPDATA%\Spotify\spotify_pride64.ico
 (
@@ -32,6 +32,6 @@ Just paste this to comandline or download the batch file.
 Just type this into your console and the icon should be switched.  
 Thanks to <a href="https://twitter.com/pascalweiland">@pascalweiland</a> for the script :thumbsup:
 
-```
+```sh
 curl -o icon.icns https://raw.githubusercontent.com/lucianw/spotify_pride/master/icns/spotify_pride.icns && sudo cp ./icon.icns /Applications/Spotify.app/Contents/Resources/icon.icns
 ```
